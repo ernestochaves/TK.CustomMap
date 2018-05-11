@@ -254,7 +254,7 @@ namespace TK.CustomMap.Droid
                 _googleMap.InfoWindowClick += OnInfoWindowClick;
                 _googleMap.MyLocationChange += OnUserLocationChange;
 
-                _googleMap.SetOnCameraIdleListener(this);
+                //_googleMap.SetOnCameraIdleListener(this);
 
                 UpdateTileOptions();
                 UpdateMapRegion();
